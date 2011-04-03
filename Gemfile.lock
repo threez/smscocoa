@@ -1,10 +1,10 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    smspromote (0.0.6)
+    smspromote (0.0.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  smspromote (>= 0.0.6)
+  smspromote

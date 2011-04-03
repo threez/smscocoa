@@ -118,7 +118,7 @@ class SmsController < NSObject
     chars = text.bytesize
     messages = (chars - chars % MESSAGE_SIZE) / MESSAGE_SIZE
     chars = chars - messages * MESSAGE_SIZE
-    [MESSAGE_SIZE - chars, messages]
+    [MESSAGE_SIZE - chars, messages + 1]
   end
   
   # shows a modal message for the use with an ok button
